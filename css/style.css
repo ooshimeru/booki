@@ -1,0 +1,658 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.paddingContainer {
+  padding-left: 54.5px;
+  padding-right: 54.5px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.logoBooki {
+  width: 59px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+
+.containerMenu {
+  display: flex;
+  list-style-type: none;
+}
+
+.lienMenu {
+  text-decoration: none;
+  color: black;
+  padding-left: 24.5px;
+  padding-right: 24.5px;
+}
+
+.lienMenu:hover {
+  color: #0065fc;
+  border-top: 2px solid #0065fc;
+  padding-top: 22px;
+}
+
+/* Search */
+.searchContainer {
+  margin-top: 25px;
+  width: 400px;
+  border-radius: 15px;
+  border: 0.5px solid #f2f2f2;
+}
+
+.searchIcon {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px 0 0 15px;
+  background-color: #f2f2f2;
+}
+
+.searchForm {
+  border: none;
+  padding-left: 20px;
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+::placeholder {
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+
+.searchButton {
+  border: none;
+  border-radius: 0 15px 15px 0;
+  height: 50px;
+  width: 120px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  cursor: pointer;
+  background-color: #0065fc;
+}
+
+.searchLogo {
+  display: none;
+}
+
+/* Filtre */
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.filterTitleMargin {
+  margin-right: 20px;
+}
+
+.filterContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  border: 2px solid #f2f2f2;
+  border-left: 0px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.filterContainer:hover {
+  color: #0065fc;
+  cursor: pointer;
+}
+.filterContainer:hover > .filterIcons {
+  color: white;
+  background-color: #0065fc;
+}
+
+.filterIcons {
+  width: 52px;
+  height: 52px;
+  border-radius: 25px;
+  color: #0065fc;
+  background-color: #deebff;
+}
+
+.filterTexte {
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 25px 25px 0;
+  font-weight: bold;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.infoIcon {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+/* Hebergements */
+.hebergementAndPopularContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hebergements {
+  width: 66.11%;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+}
+
+.hebergementsTitle {
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.hebergementsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.hebergementsLink {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 30px;
+  width: 31%;
+}
+
+.hebergementsCards {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #0000002a;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.hebergementsImage {
+  height: 114px;
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.hebergementsTexte {
+  margin-left: 11px;
+}
+
+.hebergementsParagraphe,
+.starHebergement {
+  margin-top: 10px;
+}
+
+.showMore {
+  font-weight: bold;
+}
+
+.hebergementsTitle,
+.showMore {
+  margin-left: 40px;
+}
+
+/* les plus populaires */
+
+.mostPopular {
+  width: 31%;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+}
+
+.popularTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.popularContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.popularLink {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.popularCards {
+  display: flex;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #0000002a;
+  min-height: 144px;
+}
+
+.popularImage {
+  max-height: 134px;
+  width: 32%;
+  border-radius: 15px 0 0 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.popularTexte {
+  margin-top: 10px;
+  margin-left: 16px;
+}
+
+.starPosition {
+  margin-top: 20px;
+}
+
+/* Activity */
+
+.activityContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ActivityColumn {
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+}
+
+.activityTitle {
+  padding-top: 65px;
+  padding-bottom: 25px;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.activityLink {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 30px;
+  width: 23%;
+}
+
+.activityColumnLink {
+  color: black;
+  text-decoration: none;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.activityCards {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px #0000002a;
+}
+.activityImageHeigh {
+  height: 388px;
+}
+
+.fortDePomeguesImage {
+  height: 180px;
+}
+
+.ilesDuFrioulImage {
+  height: 110px;
+}
+
+.notreDameImage {
+  height: 140px;
+}
+
+.parcLongchampImage {
+  height: 152px;
+}
+
+.activityTexte {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: 20px;
+}
+
+.fortDePomeguesImage,
+.activityImageHeigh,
+.ilesDuFrioulImage,
+.notreDameImage,
+.parcLongchampImage {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+
+/* Footer */
+
+.footerContainer {
+  display: flex;
+  background-color: #f2f2f2;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.footerTitle {
+  padding-top: 50px;
+  padding-bottom: 28px;
+}
+
+.aProposContainer {
+  display: flex;
+  flex-direction: column;
+  padding-right: 210px;
+}
+
+.nosHebergementsContainer {
+  padding-right: 210px;
+}
+
+.lienFooter {
+  margin-bottom: 20px;
+}
+
+.lienFooter,
+.lienFooterWithoutPadding {
+  text-decoration: none;
+  color: black;
+}
+
+.aProposContainer,
+.nosHebergementsContainer,
+.assistanceContainer {
+  display: flex;
+  flex-direction: column;
+}
+/* flex */
+.searchContainer,
+.searchIcon,
+.filterIcons,
+.filterTexte,
+.infoIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image */
+
+img {
+  object-fit: cover;
+}
+
+/* Texte */
+
+h1 {
+  font-size: larger;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Star Color */
+.blue {
+  color: #0065fc;
+}
+
+.grey {
+  color: #f2f2f2;
+}
+
+/* Tablette version */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .filterContainer {
+    margin-bottom: 10px;
+  }
+
+  .hebergementAndPopularContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hebergements {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .showMore {
+    margin-bottom: 40px;
+  }
+
+  .mostPopular {
+    width: 100%;
+  }
+
+  .popularContainer {
+    align-items: center;
+  }
+
+  .popularLink,
+  .popularCards {
+    width: 460px;
+  }
+
+  .aProposContainer {
+    padding-right: 100px;
+  }
+
+  .nosHebergementsContainer {
+    padding-right: 120px;
+  }
+}
+
+/* version Mobile */
+
+@media screen and (max-width: 767px) {
+  .paddingContainer {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 35px;
+  }
+
+  .logoBooki {
+    width: 60px;
+    padding-left: 0px;
+    padding-bottom: 40px;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  li {
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-top: 0px;
+    border-bottom: 2px solid #f2f2f2;
+    padding-bottom: 16px;
+  }
+
+  li:hover {
+    width: 100%;
+    border-top: 0px;
+    border-bottom: 2px solid #0065fc;
+    padding-bottom: 16px;
+  }
+
+  .lienMenu {
+    width: 50%;
+    font-size: larger;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top: 0px;
+    border-bottom: none;
+    padding-bottom: 16px;
+  }
+
+  .lienMenu:hover {
+    border-top: none;
+  }
+
+  .search {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+
+  .searchContainer {
+    width: 332px;
+  }
+
+  .searchButton {
+    display: none;
+  }
+
+  .searchLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px 15px 15px 15px;
+    height: 50px;
+    width: 50px;
+    color: white;
+    cursor: pointer;
+    background-color: #0065fc;
+  }
+
+  .filterTitleMargin {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .filterContainer {
+    margin-right: 8px;
+    margin-bottom: 20px;
+  }
+
+  .hebergementAndPopularContainer {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .hebergements {
+    width: 100%;
+    background-color: white;
+  }
+
+  .hebergementsContainer {
+    flex-direction: column;
+  }
+
+  .hebergementsImage {
+    width: 100%;
+  }
+
+  .mostPopular {
+    width: 100%;
+    min-width: unset;
+    border-radius: 0px;
+  }
+
+  .hebergementsContainer,
+  .popularTitle,
+  .popularContainer {
+    margin-right: 20px;
+  }
+
+  .hebergementsContainer,
+  .hebergementsTitle,
+  .showMore,
+  .popularTitle,
+  .popularContainer,
+  .activity {
+    margin-left: 20px;
+  }
+
+  .activityContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .activityCards {
+    height: 190px;
+  }
+
+  .hebergementsContainer,
+  .popularContainer {
+    align-items: center;
+  }
+
+  .hebergementsCards,
+  .hebergementsLink,
+  .popularCards,
+  .popularLink,
+  .activityCards,
+  .ActivityColumn,
+  .activityLink,
+  .activityImageHeigh,
+  .fortDePomeguesImage,
+  .ilesDuFrioulImage,
+  .notreDameImage,
+  .parcLongchampImage {
+    width: 335px;
+  }
+
+  .activityImageHeigh,
+  .fortDePomeguesImage,
+  .ilesDuFrioulImage,
+  .notreDameImage,
+  .parcLongchampImage {
+    height: 135px;
+  }
+
+  .activityTexte {
+    padding-top: 15px;
+  }
+
+  .footerContainer {
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .aProposContainer,
+  .nosHebergementsContainer {
+    padding-right: 0px;
+  }
+}
